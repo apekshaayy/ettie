@@ -34,7 +34,7 @@ st.set_page_config(page_title="Ettie Campus", layout="wide")
 st.title("Looking for a roommate?")
 st.write("Ettie Campus made it easier to find someone you'll actually enjoy living with.")
 if st.button("Start Matching"):
-    st.write("Quiz yet to be uploaded.")
+    st.switch_page("pages/1_Quiz.py")
 
 st.markdown("<div style='margin: 50px 0;'></div>", unsafe_allow_html=True)
 
